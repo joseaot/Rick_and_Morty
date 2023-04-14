@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+
+.contenedor{
+    margin-top:200px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: rgba(0, 0, 0, 0.63);
+    padding-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+.contenedor:hover{
+    box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+}
+
+
+.titulo{
+    transition: 0.5s;
+    color: rgb(0, 255, 234);
+    text-shadow: 0px 0px 18px #00ff6a93;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 50px;
+
+}
+
+.titulo:hover{
+    text-shadow: 0px 0px 18px #ffffff;
+}
+
+
+.subtitulos1{
+    margin-left: 35px;
+    transition: 0.5s;
+    color: rgb(0, 255, 234);
+    text-shadow: 0px 0px 18px #00ff6a93;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 22px;
+}
+
+
+.subtitulos1:hover{
+text-shadow: 0px 0px 18px #ffffff;
+}
+
+.subtitulos2{
+    transition: 0.5s;
+    color: rgb(0, 255, 234);
+    text-shadow: 0px 0px 18px #00ff6a93;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 22px;
+}
+
+
+.subtitulos2:hover{
+text-shadow: 0px 0px 18px #ffffff;
+}
+
+
+
+
+.boton{
+    padding:10px;
+    margin-top: 10px;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 0px 0px 40px 0px;
+    background-color: rgba(21, 250, 0, 0.63);
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.4s;
+    font-size: 20px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.boton:hover{
+    box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+}
+
+
+.input{
+    font-family: 'Delicious Handrawn', cursive;
+    margin-left: 10px;
+}
+
+.errores{
+    background-color: rgb(255, 255, 255);
+    color: red;
+    transition: 0.5s;
+}
