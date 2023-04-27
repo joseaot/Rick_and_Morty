@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+.contenedor{
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.barra{
+    margin-right:18px;
+    margin-bottom: 20px;
+}
+
+.botones1{
+    margin-top: 10px;
+    margin-left: 30px;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 0px 0px 40px 0px;
+    background-color: rgba(21, 250, 0, 0.63);
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.4s;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 20px;
+
+}
+
+.botones2{
+    margin-top: 10px;
+    margin-left: 30px;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 0px 0px 0px 40px;
+    background-color: rgba(21, 250, 0, 0.63);
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.4s;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 20px;
+}
+
+
+.cartas{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+

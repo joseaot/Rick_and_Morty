@@ -1,0 +1,151 @@
+.container{
+    background-color: rgba(36, 34, 34, 0.815);
+    width: 700px;
+    height: 550px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    transition: 0.5s;
+    color: rgb(0, 255, 234);
+    text-shadow: 0px 0px 18px #00ff6a93;
+    font-size:10px
+    
+}
+.cardname{
+    color: rgb(0, 255, 234);
+    text-shadow: 0px 0px 18px #00ff6a96;
+    font-size: 25px;
+    margin: 10px;
+    transition: 0.5s;
+
+}
+
+.cardname:hover{
+    text-shadow: 0px 0px 18px #ffffff;
+
+}
+
+.container:hover{
+    box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.884);
+
+}
+
+
+
+.imagen{
+    border-radius: 40%;
+    transition: 0.5s;
+    margin-left: 250px;
+    width: 200px;
+    flex: none;
+}
+
+.imagen:hover{
+    box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 0.747);
+}
+
+
+.css{
+    width: 150px;
+    transition: 0.5s;
+}
+
+.css:hover{-webkit-transform:scale(1.3);transform:scale(1.3);}
+
+.html{
+    width: 83px;
+    transition: 0.5s;
+}
+.html:hover{-webkit-transform:scale(1.3);transform:scale(1.3);}
+
+.js{
+    width: 130px;
+    transition: 0.5s;
+}
+.js:hover{-webkit-transform:scale(1.3);transform:scale(1.3);}
+
+.node{
+    width: 65px;
+    transition: 1s;
+}
+
+.node:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;}
+
+.react{
+    width: 78px;
+    margin-left: 30px;
+    transition: 2s;
+    
+}
+.react:hover {-webkit-transform: rotate(360deg)}
+
+.redux{
+    width: 75px;
+    margin-left: 30px;
+    transition: 2s;
+}
+.redux:hover {-webkit-transform: rotate(360deg)}
+
+.face{
+    width: 80px;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+
+.face:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+
+
+.ig{
+    width: 75px;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.linke{
+    width: 72px;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.githud{
+    width: 75px;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+
+.whatsapp{
+    width: 75px;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+
+.gmail{
+    width: 90px;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+
+.gmail:hover, .whatsapp:hover, .githud:hover, .ig:hover, .linke:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+    
+
+
+
+.contenedorLogo{
+    margin-right: 50px;
+    
+}
+
+.containerRedes{
+    padding-bottom: 20px;
+    margin-left: 15px;
+}
+
